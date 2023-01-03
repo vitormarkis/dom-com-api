@@ -1,0 +1,20 @@
+#root {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    '. area .'
+    'footer footer footer'
+    ;
+
+    grid-template-columns: 1fr 1200px 1fr;
+    grid-template-rows: 10rem 1fr 15rem;
+}
+
+#footer,
+#header {
+    padding: 2rem;
+}

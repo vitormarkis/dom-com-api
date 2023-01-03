@@ -1,0 +1,11 @@
+#footer {
+    grid-area: footer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid hsl(206, 7%, 80%);
+}
+
+#footer-content {
+    max-width: 1200px;
+}

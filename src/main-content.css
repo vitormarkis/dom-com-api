@@ -1,0 +1,50 @@
+#content {
+    display: grid;
+    grid-area: area;
+
+    
+    grid-template-areas:
+    'aside-user main-content aside-info'
+    ;
+    grid-template-columns: 20% 1fr 33%;
+}
+
+.container-cards {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#content > * {
+    padding: 2rem;
+}
+
+#main-content {
+    border-inline: 1px solid hsl(206, 7%, 80%);
+    grid-area: main-content;
+}
+
+#aside-user {
+    grid-area: aside-user;
+}
+
+#aside-info {
+    grid-area: aside-info;
+}
+
+.container-favourite-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+#content h1 {
+    margin-bottom: 1rem;
+}
+
+.favourite-section {
+    position: sticky;
+}

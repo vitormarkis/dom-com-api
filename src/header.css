@@ -1,0 +1,11 @@
+#header {
+    grid-area: header;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid hsl(206, 7%, 80%);
+}
+
+#header-content {
+    max-width: 1200px;
+}

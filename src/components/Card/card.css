@@ -1,0 +1,41 @@
+.div-card {
+    position: relative;
+    padding: 12px;
+    background-color: #f7f7f7;
+    border: 2px solid #e7e7e7;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+
+    flex: 1 1 auto;
+}
+
+.div-card > * {
+    padding: .3rem;
+}
+
+.div-card h1 {
+    font-weight: 500;
+    color: #bbb;
+}
+
+.div-card .div-id {
+    color: #ddd;
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-card .div-gif {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div-card .div-gif {
+    height: fit-content;
+}
